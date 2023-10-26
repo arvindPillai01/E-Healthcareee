@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9BYGDmbPZT6CFnjdn/AmQhIvg6mkLRdsW5EV9RzjafyQRE+/XKH6+9Bf/G8eLvvmyYvskMCo/oW5J8lhffOqjA==",
+  "dgSpecHash": "FjV/1snQVJ4L9YsXx6m+I4WxIEFbkMw868rU00KqxcBU41AIwuCCPanqj0Pit6fqqLvmtcORHD3XEvg+HMQ72w==",
   "success": true,
   "projectFilePath": "D:\\CapstoneProject-eHealthcare\\healthcareBackend .NET\\healthcareBackend .NET\\healthcareBackend .NET.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Arvind Pillai\\.nuget\\packages\\auth0.core\\7.23.0\\auth0.core.7.23.0.nupkg.sha512",
+    "C:\\Users\\Arvind Pillai\\.nuget\\packages\\auth0.managementapi\\7.23.0\\auth0.managementapi.7.23.0.nupkg.sha512",
     "C:\\Users\\Arvind Pillai\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\Arvind Pillai\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
     "C:\\Users\\Arvind Pillai\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

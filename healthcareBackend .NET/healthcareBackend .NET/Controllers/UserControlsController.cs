@@ -50,9 +50,10 @@ namespace healthcareBackend_.NET.Controllers
             return userControl;
         }
 
-        // PUT: api/UserControls/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+
+		// PUT: api/UserControls/5
+		// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+		[HttpPut("{id}")]
         public async Task<IActionResult> PutUserControl(int id, UserControl userControl)
         {
             if (id != userControl.UserId)
@@ -86,14 +87,26 @@ namespace healthcareBackend_.NET.Controllers
         [HttpPost]
         public async Task<ActionResult<UserControl>> PostUserControl(UserControl userControl)
         {
-          if (_context.UserControl == null)
-          {
-              return Problem("Entity set 'ApplicationDbContext.UserControl'  is null.");
-          }
-            _context.UserControl.Add(userControl);
+            if (_context.UserControl == null)
+            {
+                return Problem("Entity set 'ApplicationDbContext.UserControl'  is null.");
+            }
+
+
+            var usernameExists = await CheckUsernameExists(userControl.UserName);
+
+            if (usernameExists)
+            {
+	            return Conflict("Username already exists. Please choose a different username.");
+            }
+
+
+			_context.UserControl.Add(userControl);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetUserControl", new { id = userControl.UserId }, userControl);
+
+
         }
 
         // DELETE: api/UserControls/5
@@ -116,7 +129,46 @@ namespace healthcareBackend_.NET.Controllers
             return NoContent();
         }
 
-        private bool UserControlExists(int id)
+
+
+
+        // Authentication endpoint
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest loginRequest)
+        {
+	        var user = await _context.UserControl
+		        .SingleOrDefaultAsync(u => u.UserName == loginRequest.Username);
+
+	        if (user == null)
+	        {
+		        return NotFound("User not found");
+	        }
+
+	        if (user.Password == loginRequest.Password)
+	        {
+		        // Password matches; user is authenticated
+		        // You can return a token or other authentication response here
+		        return Ok("Authentication successful");
+	        }
+	        else
+	        {
+		        // Password does not match
+		        return Unauthorized("Authentication failed");
+	        }
+        }
+
+        // GETapi/UserControls/registration
+        [HttpGet("check-username/{username}")]
+        private async Task<bool> CheckUsernameExists(string username)
+        {
+	        var existingUser = await _context.UserControl.FirstOrDefaultAsync(u => u.UserName == username);
+	        return existingUser != null;
+        }
+
+
+
+
+		private bool UserControlExists(int id)
         {
             return (_context.UserControl?.Any(e => e.UserId == id)).GetValueOrDefault();
         }

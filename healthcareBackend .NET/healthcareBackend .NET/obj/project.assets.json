@@ -2,6 +2,38 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Auth0.Core/7.23.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Auth0.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Auth0.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Auth0.ManagementApi/7.23.0": {
+        "type": "package",
+        "dependencies": {
+          "Auth0.Core": "7.23.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Auth0.ManagementApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Auth0.ManagementApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "BoDi/1.5.0": {
         "type": "package",
         "compile": {
@@ -4072,6 +4104,38 @@
     }
   },
   "libraries": {
+    "Auth0.Core/7.23.0": {
+      "sha512": "hKTZYVRNgtZB4/PsLiM8J+6D7MZiPYlImm6XgVqi5wSa86dDjUfGJvZDO/U6lvEP/4pAD8H405kGiIQgwXi1fQ==",
+      "type": "package",
+      "path": "auth0.core/7.23.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Auth0Icon.png",
+        "auth0.core.7.23.0.nupkg.sha512",
+        "auth0.core.nuspec",
+        "lib/net452/Auth0.Core.dll",
+        "lib/net452/Auth0.Core.xml",
+        "lib/netstandard2.0/Auth0.Core.dll",
+        "lib/netstandard2.0/Auth0.Core.xml"
+      ]
+    },
+    "Auth0.ManagementApi/7.23.0": {
+      "sha512": "4e70fz6iW++gIDdp2xROr8Jw/HZ2tTbm08b9M4bChaloFGV4Agmb9X0AdYk/TUFtp5KFj3CDuYBlhJUGjzUKsw==",
+      "type": "package",
+      "path": "auth0.managementapi/7.23.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Auth0Icon.png",
+        "auth0.managementapi.7.23.0.nupkg.sha512",
+        "auth0.managementapi.nuspec",
+        "lib/net452/Auth0.ManagementApi.dll",
+        "lib/net452/Auth0.ManagementApi.xml",
+        "lib/netstandard2.0/Auth0.ManagementApi.dll",
+        "lib/netstandard2.0/Auth0.ManagementApi.xml"
+      ]
+    },
     "BoDi/1.5.0": {
       "sha512": "CzIPzdIAFSd2zuLxI+0K9s48Qv3HQDbWiApn9h96j284rHs2bSPrn/PMca3mi4q3xLSEqOp+GUJ6+mXDD9prKg==",
       "type": "package",
@@ -11638,6 +11702,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Auth0.ManagementApi >= 7.23.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.23",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.23",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.23",
@@ -11695,6 +11760,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Auth0.ManagementApi": {
+            "target": "Package",
+            "version": "[7.23.0, )"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.23, )"

@@ -12,82 +12,18 @@ D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\healthcareBackend .NET.runtimeconfig.json
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\healthcareBackend .NET.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\healthcareBackend .NET.pdb
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Auth0.Core.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Auth0.ManagementApi.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\BoDi.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Gherkin.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Humanizer.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\MessagePack.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\MessagePack.Annotations.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.OpenApi.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Newtonsoft.Json.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\nunit.framework.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\WebDriver.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\TechTalk.SpecFlow.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Drawing.Common.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Runtime.Caching.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Security.Permissions.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Windows.Extensions.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.csproj.AssemblyReference.cache
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.GeneratedMSBuildEditorConfig.editorconfig
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.AssemblyInfoInputs.cache
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.AssemblyInfo.cs
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.csproj.CoreCompileInputs.cache
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.MvcApplicationPartsAssemblyInfo.cs
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.MvcApplicationPartsAssemblyInfo.cache
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets\msbuild.healthcareBackend .NET.Microsoft.AspNetCore.StaticWebAssets.props
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets\msbuild.build.healthcareBackend .NET.props
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.healthcareBackend .NET.props
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.healthcareBackend .NET.props
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets.pack.json
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets.build.json
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets.development.json
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\scopedcss\bundle\healthcareBackend .NET.styles.css
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.csproj.CopyComplete
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\refint\healthcareBackend .NET.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.pdb
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.genruntimeconfig.cache
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\ref\healthcareBackend .NET.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\MessagePack.dll
-D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\MessagePack.Annotations.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Build.dll
@@ -101,11 +37,30 @@ D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -114,6 +69,8 @@ D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\NuGet.Common.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\NuGet.Configuration.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
@@ -123,15 +80,30 @@ D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\NuGet.ProjectModel.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\NuGet.Protocol.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\nunit.framework.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\WebDriver.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\TechTalk.SpecFlow.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\SQLitePCLRaw.core.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Composition.Convention.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Composition.Hosting.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Composition.Runtime.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\System.Windows.Extensions.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\af\Humanizer.resources.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\ar\Humanizer.resources.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\az\Humanizer.resources.dll
@@ -271,6 +243,13 @@ D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\alpine-arm\native\libe_sqlite3.so
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\alpine-arm64\native\libe_sqlite3.so
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
@@ -293,5 +272,28 @@ D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.csproj.AssemblyReference.cache
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.GeneratedMSBuildEditorConfig.editorconfig
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.AssemblyInfoInputs.cache
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.AssemblyInfo.cs
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.csproj.CoreCompileInputs.cache
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.MvcApplicationPartsAssemblyInfo.cs
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.MvcApplicationPartsAssemblyInfo.cache
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets\msbuild.healthcareBackend .NET.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets\msbuild.build.healthcareBackend .NET.props
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.healthcareBackend .NET.props
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.healthcareBackend .NET.props
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets.pack.json
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets.build.json
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\staticwebassets.development.json
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\scopedcss\bundle\healthcareBackend .NET.styles.css
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.csproj.CopyComplete
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\refint\healthcareBackend .NET.dll
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.pdb
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\healthcareBackend .NET.genruntimeconfig.cache
+D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Debug\net6.0\ref\healthcareBackend .NET.dll
