@@ -85,19 +85,39 @@ namespace healthcareBackend_.NET.Controllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<MedItems>> PostMedItems(MedItems medItems)
-        {
-          if (_context.MedItems == null)
-          {
-              return Problem("Entity set 'ApplicationDbContext.MedItems'  is null.");
-          }
-            _context.MedItems.Add(medItems);
-            await _context.SaveChangesAsync();
+		//{
+		//  if (_context.MedItems == null)
+		//  {
+		//      return Problem("Entity set 'ApplicationDbContext.MedItems'  is null.");
+		//  }
+		//    _context.MedItems.Add(medItems);
+		//    await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetMedItems", new { id = medItems.ItemId }, medItems);
-        }
+		//    return CreatedAtAction("GetMedItems", new { id = medItems.ItemId }, medItems);
+		//}
+		{
+			// Check if the category exists before creating the item
+			var existingCategory = await _context.MedCategory.FindAsync(medItems.CategoryId);
+			if (existingCategory == null)
+			{
+				// Return a bad request response because the category doesn't exist
+				return BadRequest("The specified category doesn't exist.");
+			}
 
-        // DELETE: api/MedItems/5
-        [HttpDelete("{id}")]
+			// Link the item to the existing category
+			medItems.MedCategory = existingCategory;
+
+			// Add the item to the context and save changes
+			_context.MedItems.Add(medItems);
+			await _context.SaveChangesAsync();
+
+			return CreatedAtAction("GetMedItems", new { id = medItems.ItemId }, medItems);
+		}
+
+
+
+		// DELETE: api/MedItems/5
+		[HttpDelete("{id}")]
         public async Task<IActionResult> DeleteMedItems(int id)
         {
             if (_context.MedItems == null)
