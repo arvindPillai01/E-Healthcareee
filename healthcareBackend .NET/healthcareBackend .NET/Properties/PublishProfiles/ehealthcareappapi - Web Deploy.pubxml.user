@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKhtVAbRatU6KjQ5WJ5K/CAAAAAACAAAAAAAQZgAAAAEAACAAAABFuuQPpETVkFN14oUlRMACpPCUI0G9qEuLseXWmw/h4wAAAAAOgAAAAAIAACAAAADwzAZ+F1DDdZIO0xO+XR4nnZ7nciPxj2CG8DzbWeHjcoAAAAA6+/TJMOtf5JFxI6FEx/WUcabkSjtaEoeKWAECptvj+iP0Op63E/vOMTq3pQs5aeEdZhINViuNZeuCr2GmzLHe8lfX3ARDqZq8BqkTToLZnpovueyTgmu5iBWQvvRD4+joyTr8HBfuj/oe3huD7k14wUsptFLHagJqDDca6T5YS0AAAAAW+hZDl+3maCOaQ3qj90q8mO0XOoNuAPzTzLawsIBkbUrwiUdty8JHasAQRZi8kojKr+P/bZjYQgT1VZoDs398</EncryptedPassword>
+    <History>True|2023-10-30T10:52:01.3772509Z;True|2023-10-30T15:54:50.2941016+05:30;True|2023-10-30T15:10:27.3888986+05:30;False|2023-10-30T15:07:18.6996355+05:30;True|2023-10-30T11:14:58.5227345+05:30;True|2023-10-30T11:12:26.7601668+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=ehealthcareserver.database.windows.net,1433%3bInitial Catalog=HealthcareDb%3bUser ID=healthcareadmin%3bPassword=#admin2001</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="healthcareBackend_.NET.Data.ApplicationDbContext">
+      <Value>Data Source=ehealthcareserver.database.windows.net,1433%3bInitial Catalog=HealthcareDb%3bUser ID=healthcareadmin%3bPassword=#admin2001</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

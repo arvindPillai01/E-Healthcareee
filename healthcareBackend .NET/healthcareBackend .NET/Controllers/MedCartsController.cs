@@ -25,34 +25,36 @@ namespace healthcareBackend_.NET.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<MedCart>>> GetMedCart()
         {
-          if (_context.MedCart == null)
+			var medCarts = await _context.MedCart
+	        .Include(mc => mc.MedItems) // Include the MedItems navigation property
+	        .ToListAsync();
+
+			if (_context.MedCart == null)
           {
               return NotFound();
           }
             return await _context.MedCart.ToListAsync();
         }
 
-        // GET: api/MedCarts/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<MedCart>> GetMedCart(int id)
-        {
-          if (_context.MedCart == null)
-          {
-              return NotFound();
-          }
-            var medCart = await _context.MedCart.FindAsync(id);
+		// GET: api/MedCarts/5
+		[HttpGet("{id}")]
+		public async Task<ActionResult<MedCart>> GetMedCart(int id)
+		{
+			var medCart = await _context.MedCart
+				.Include(mc => mc.MedItems) // Include the MedItems navigation property
+				.FirstOrDefaultAsync(mc => mc.CartId == id);
 
-            if (medCart == null)
-            {
-                return NotFound();
-            }
+			if (medCart == null)
+			{
+				return NotFound();
+			}
 
-            return medCart;
-        }
+			return medCart;
+		}
 
-        // PUT: api/MedCarts/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+		// PUT: api/MedCarts/5
+		// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+		[HttpPut("{id}")]
         public async Task<IActionResult> PutMedCart(int id, MedCart medCart)
         {
             if (id != medCart.CartId)
@@ -81,23 +83,42 @@ namespace healthcareBackend_.NET.Controllers
             return NoContent();
         }
 
+
         // POST: api/MedCarts
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<MedCart>> PostMedCart(MedCart medCart)
-        {
-          if (_context.MedCart == null)
-          {
-              return Problem("Entity set 'ApplicationDbContext.MedCart'  is null.");
-          }
-            _context.MedCart.Add(medCart);
-            await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetMedCart", new { id = medCart.CartId }, medCart);
-        }
+		public async Task<ActionResult<MedCart>> PostMedCart(MedCart medCart)
+		{
+			// Fetch the MedItem based on itemId
+			var medItem = await _context.MedItems.FindAsync(medCart.ItemId);
 
-        // DELETE: api/MedCarts/5
-        [HttpDelete("{id}")]
+			if (medItem == null)
+			{
+				return NotFound("MedItem not found");
+			}
+
+			// Fetch the MedCategory based on categoryId in the MedItem
+			var medCategory = await _context.MedCategory.FindAsync(medItem.CategoryId);
+
+			if (medCategory == null)
+			{
+				return NotFound("MedCategory not found");
+			}
+
+			// Set the MedItems and MedCategory properties
+			medCart.MedItems = medItem;
+			medCart.MedItems.MedCategory = medCategory;
+
+			// Add the MedCart to the context
+			_context.MedCart.Add(medCart);
+			await _context.SaveChangesAsync();
+
+			return CreatedAtAction("GetMedCart", new { id = medCart.CartId }, medCart);
+		}
+
+		// DELETE: api/MedCarts/5
+		[HttpDelete("{id}")]
         public async Task<IActionResult> DeleteMedCart(int id)
         {
             if (_context.MedCart == null)

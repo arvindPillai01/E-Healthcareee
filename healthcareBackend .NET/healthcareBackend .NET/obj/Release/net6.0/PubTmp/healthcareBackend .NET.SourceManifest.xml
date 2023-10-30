@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Release\net6.0\PubTmp\Out\" />
+  <dbfullsql path="D:\CapstoneProject-eHealthcare\healthcareBackend .NET\healthcareBackend .NET\obj\Release\net6.0\PubTmp\EFSQLScripts\healthcareBackend_.NET.Data.ApplicationDbContext.sql" />
+</sitemanifest>
